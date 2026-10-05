@@ -16,8 +16,8 @@ const CARDS = [
   {
     num: '02',
     tag: 'Island-wide reach',
-    img: '/images/workshop-teacher.jpg',
-    alt: 'A teacher guiding uniformed students through a MathLab learning activity',
+    img: '/images/csr-session.jpg',
+    alt: 'Students at a MathLab session donated through the Commercial Bank CSR Trust',
     title: 'Corporate CSR Partnerships',
     text: 'Proudly partnering with organizations such as the Commercial Bank CSR Trust to donate complete MathLab environments to underprivileged schools across Sri Lanka.',
     cta: 'Partner with us',
@@ -26,8 +26,8 @@ const CARDS = [
   {
     num: '03',
     tag: '100+ tools',
-    img: '/images/tactile-tools.jpg',
-    alt: 'Hands-on math learning aids — tactile counting and number tools',
+    img: '/images/tools-table.jpg',
+    alt: 'A full MathLab toolkit — physical games and manipulatives made with Imashi Publications',
     title: '100+ Educational Tools',
     text: 'A vast curriculum of physical learning aids, manufactured in partnership with Imashi Publications, designed to make abstract mathematical concepts tangible.',
     cta: 'See them in action',

@@ -390,6 +390,13 @@ a { color: inherit; }
   flex: none;
 }
 
+.logo .logo-mark {
+  display: block;
+  width: auto;
+  height: 42px;
+  filter: drop-shadow(0 2px 8px rgba(11, 36, 71, 0.18));
+}
+
 .logo-name {
   display: block;
   font-family: var(--font-display);

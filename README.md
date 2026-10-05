@@ -48,6 +48,16 @@ output `dist`).
 
 ---
 
+## ✅ Done — real brand assets live
+
+Official brand assets sourced from the MathLab Facebook page
+(facebook.com/mathslabsl) are now integrated:
+
+- **Logo** — the official teal hexagon-“M” mark (nav, favicon, og-cover) and the
+  full stacked lockup (footer) replace the placeholder flask mark.
+- **Photos** — Impact section now carries two authentic photos from a Commercial
+  Bank CSR workshop (`csr-session.jpg`, `tools-table.jpg`).
+
 ## ⚠️ Before going live — replace placeholders
 
 All site content is centralised in **`src/config.js`**:
@@ -73,12 +83,17 @@ Also recommended before launch:
    `src/components/Testimonials.jsx` with real photos/video from the
    Kuliyapitiya Holy Angels Girls' College workshop.
 
+> Tip: Facebook post photos are login-walled for scrapers. To hand them over,
+   either upload the files directly, or right-click a photo on the page →
+   *Copy image address* → paste the `scontent…` link here (those CDN links are
+   fetchable without login).
+
 ## Where things live
 
 ```
 ├── public/               # static assets copied as-is to dist/
-│   ├── images/           # hero, workshop, tools, gallery photos + og-cover.jpg
-│   ├── favicon.svg       # brand mark (flask)
+│   ├── images/           # photos + brand assets (logo-hex, logo-lockup, csr-session, tools-table, og-cover)
+│   ├── favicon.png       # official hexagon mark (48px)
 │   └── apple-touch-icon.png
 ├── src/
 │   ├── config.js         # ⭐ all editable site data (contact, stats, partners)

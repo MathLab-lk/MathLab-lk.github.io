@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo } from './Logo.jsx'
+import { LogoLockup } from './Logo.jsx'
 import { NAV_LINKS, SITE, CONTACT } from '../config.js'
 
 export default function Footer() {
@@ -8,7 +8,9 @@ export default function Footer() {
       <div className="container">
         <div className="footer-top">
           <div className="footer-brand">
-            <Logo dark size={44} />
+            <span className="footer-logo-chip">
+              <LogoLockup height={112} />
+            </span>
             <p>{SITE.tagline}</p>
           </div>
 
