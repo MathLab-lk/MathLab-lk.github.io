@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build output (CI builds via GitHub Actions)
+dist/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Local env / logs
+.env
+.env.*
+npm-debug.log*
+yarn-error.log*
