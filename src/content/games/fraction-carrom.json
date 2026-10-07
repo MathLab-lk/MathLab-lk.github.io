@@ -1,0 +1,37 @@
+{
+  "slug": "fraction-carrom",
+  "name": "Fraction Carrom",
+  "tagline": "Strike, pocket, simplify — the classic carrom board rebuilt around equivalent fractions.",
+  "status": "published",
+  "featured": true,
+  "grades": [6, 7, 8],
+  "curriculumTags": ["Grade 6 — Fractions", "Grade 7 — Fractions", "Grade 8 — Fractions"],
+  "concepts": ["Equivalent fractions", "Simplification", "Comparing fractions", "Mental addition"],
+  "players": "2–6",
+  "duration": "20–40 min",
+  "difficulty": 2,
+  "cover": "/images/carrom-group.jpg",
+  "howToPlay": {
+    "video": null,
+    "steps": [
+      { "title": "Set the board", "text": "Arrange the fraction coins in the centre circle. Each coin shows a fraction — halves, thirds, quarters, fifths and their equivalents.", "image": null, "seconds": 8 },
+      { "title": "Call your target", "text": "Before striking, announce the fraction family you are hunting, e.g. “I pocket coins equal to one half.”", "image": null, "seconds": 8 },
+      { "title": "Strike and pocket", "text": "Flick the striker. If you pocket a coin equal to your called target, you keep it — say the matching fraction aloud to claim it.", "image": null, "seconds": 9 },
+      { "title": "Simplify to score", "text": "Each pocketed coin must be named in its simplest form. Say “two quarters” and the coin is worth only 1 point — say “one half” and it scores 2.", "image": null, "seconds": 9 },
+      { "title": "Miss = turn passes", "text": "If the pocketed coin does not match your call, return it to the centre and play moves to the left.", "image": null, "seconds": 7 },
+      { "title": "Win the round", "text": "The round ends when the board is cleared. Highest total of simplified fraction points wins the round — best of three rounds wins the match.", "image": null, "seconds": 8 }
+    ],
+    "pdf": null
+  },
+  "challenges": [
+    { "title": "Equivalent Hunt", "brief": "Pocket three different coins that all equal one half, naming each correctly (e.g. 2/4, 3/6, 5/10).", "points": 10, "level": "core" },
+    { "title": "Simplification Streak", "brief": "Simplify five pocketed coins in a row without a mistake — a single slip resets the streak.", "points": 15, "level": "core" },
+    { "title": "Fraction Sum", "brief": "Combine two pocketed coins that add to exactly one whole. Announce the pair and the total before pocketing the next coin.", "points": 20, "level": "stretch" },
+    { "title": "Bullseye Bonus", "brief": "Call and pocket the coin worth 3/12 — and immediately state its simplest form. Only the fastest fraction in the room earns the full 25.", "points": 25, "level": "stretch" }
+  ],
+  "scorecard": {
+    "rounds": ["Round 1", "Round 2", "Round 3", "Streak bonus", "Total"],
+    "scoring": "2 points per correctly simplified coin. +3 per challenge completed. Deduct 1 point for a wrongly named fraction."
+  },
+  "updated": "2026-10"
+}

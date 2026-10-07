@@ -6,10 +6,14 @@
   "description": "MathLab Sri Lanka — national activity-based mathematics initiative. Static site built with React + Vite.",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "node scripts/validate-content.mjs && vite build",
+    "preview": "vite preview",
+    "validate:content": "node scripts/validate-content.mjs",
+    "new:game": "node scripts/new-game.mjs",
+    "qr:generate": "node scripts/generate-qr-codes.mjs"
   },
   "dependencies": {
+    "qrcode": "^1.5.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

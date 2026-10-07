@@ -144,3 +144,93 @@ export const IconTrophy = (p) => (
     <path d="M12 14v3M8 21h8M10 17h4l1 4H9z" />
   </svg>
 )
+
+/* ── Companion / Rulebook icons ─────────────────────────── */
+
+export const IconQR = (p) => (
+  <svg {...base} {...p}>
+    <path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3" />
+    <path d="M7 7h.01M17 7h.01M7 17h.01M12 12h.01M17 17h.01" strokeWidth="2.4" />
+    <path d="M10 7h4v4h-4zM10 13h4v4h-4z" fill="none" />
+  </svg>
+)
+
+export const IconSearch = (p) => (
+  <svg {...base} {...p}>
+    <circle cx="11" cy="11" r="7" />
+    <path d="m20 20-3.8-3.8" />
+  </svg>
+)
+
+export const IconPrinter = (p) => (
+  <svg {...base} {...p}>
+    <path d="M7 8V3h10v5" />
+    <rect x="3" y="8" width="18" height="9" rx="2" />
+    <path d="M7 14h10v7H7z" />
+  </svg>
+)
+
+export const IconPlay = (p) => (
+  <svg {...fillBase} {...p}>
+    <path d="M8 5.5v13a1 1 0 0 0 1.54.84l10-6.5a1 1 0 0 0 0-1.68l-10-6.5A1 1 0 0 0 8 5.5z" />
+  </svg>
+)
+
+export const IconPause = (p) => (
+  <svg {...fillBase} {...p}>
+    <rect x="6" y="5" width="4" height="14" rx="1" />
+    <rect x="14" y="5" width="4" height="14" rx="1" />
+  </svg>
+)
+
+export const IconReplay = (p) => (
+  <svg {...base} {...p}>
+    <path d="M3 12a9 9 0 1 0 3-6.7" />
+    <path d="M3 3v5h5" />
+  </svg>
+)
+
+export const IconChevronLeft = (p) => (
+  <svg {...base} {...p}><path d="m14 6-6 6 6 6" /></svg>
+)
+
+export const IconChevronRight = (p) => (
+  <svg {...base} {...p}><path d="m10 6 6 6-6 6" /></svg>
+)
+
+export const IconDownload = (p) => (
+  <svg {...base} {...p}>
+    <path d="M12 3v12" />
+    <path d="m7 11 5 5 5-5" />
+    <path d="M4 19h16" />
+  </svg>
+)
+
+export const IconVideo = (p) => (
+  <svg {...base} {...p}>
+    <rect x="3" y="6" width="13" height="12" rx="2" />
+    <path d="m16 10 5-3v10l-5-3z" />
+  </svg>
+)
+
+export const IconClock = (p) => (
+  <svg {...base} {...p}>
+    <circle cx="12" cy="12" r="9" />
+    <path d="M12 7v5l3 3" />
+  </svg>
+)
+
+export const IconUsers = (p) => (
+  <svg {...base} {...p}>
+    <circle cx="9" cy="8" r="3.5" />
+    <path d="M3.5 20a5.5 5.5 0 0 1 11 0" />
+    <path d="M15.5 4.6a3.5 3.5 0 0 1 0 6.8M17.5 14.4a5.5 5.5 0 0 1 3 4.6" />
+  </svg>
+)
+
+export const IconFlame = (p) => (
+  <svg {...base} {...p}>
+    <path d="M12 3s5 4.5 5 9a5 5 0 0 1-10 0c0-1.5.5-2.8 1.2-3.8" />
+    <path d="M12 21a3 3 0 0 1-3-3c0-1.7 1.6-3 3-4.5 1.4 1.5 3 2.8 3 4.5a3 3 0 0 1-3 3z" />
+  </svg>
+)

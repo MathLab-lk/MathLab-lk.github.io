@@ -12,9 +12,10 @@ export default function Nav() {
     const onScroll = () => {
       setScrolled(window.scrollY > 24)
 
-      // Highlight the section currently in view
+      // Highlight the section currently in view (skip hash-route links)
       let current = ''
       for (const { href } of NAV_LINKS) {
+        if (href.startsWith('#/')) continue
         const sec = document.querySelector(href)
         if (sec && sec.getBoundingClientRect().top <= 120) current = href
       }
@@ -40,7 +41,11 @@ export default function Nav() {
             <a
               key={l.href}
               href={l.href}
-              className={`nav-link ${active === l.href ? 'is-active' : ''}`}
+              className={`nav-link ${
+                active === l.href || (l.route && window.location.hash.startsWith('#/companion'))
+                  ? 'is-active'
+                  : ''
+              }`}
             >
               {l.label}
             </a>

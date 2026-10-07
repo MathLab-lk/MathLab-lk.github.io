@@ -1,0 +1,36 @@
+{
+  "slug": "card-clashes",
+  "name": "Card Clashes",
+  "tagline": "Split the deck, flip two cards, and let place value decide who wins the skirmish.",
+  "status": "published",
+  "featured": false,
+  "grades": [5, 6, 7],
+  "curriculumTags": ["Grade 5 — Number", "Grade 6 — Number", "Grade 7 — Number"],
+  "concepts": ["Place value", "Comparing numbers", "Ordering decimals", "Estimation"],
+  "players": "2–4",
+  "duration": "10–20 min",
+  "difficulty": 1,
+  "cover": "/images/classroom-cards.jpg",
+  "howToPlay": {
+    "video": null,
+    "steps": [
+      { "title": "Split the deck", "text": "Shuffle the number cards and deal them all out face-down. Nobody looks at their pile.", "image": null, "seconds": 7 },
+      { "title": "Flip and build", "text": "On “clash”, every player flips their top card and lays it in the shared frame — decide together whether today's clash is for the biggest or smallest number.", "image": null, "seconds": 8 },
+      { "title": "Read it aloud", "text": "Each player reads their full number out loud, place by place — “four thousand, two hundred and five” beats a mumbled “forty-two-five”.", "image": null, "seconds": 8 },
+      { "title": "Take the pot", "text": "The winning number takes every card on the table and adds them to a score pile. A tie means war: flip two more cards each and compare again.", "image": null, "seconds": 8 },
+      { "title": "Estimate twists", "text": "In advanced rounds, cards are multiplied by a target factor — estimate first, then calculate. Closest estimate takes the pot.", "image": null, "seconds": 8 },
+      { "title": "End the game", "text": "The game ends when one player holds all the cards, or after ten rounds — highest score pile wins.", "image": null, "seconds": 7 }
+    ],
+    "pdf": null
+  },
+  "challenges": [
+    { "title": "Perfect Order", "brief": "Win a clash, then immediately arrange the four captured cards from smallest to largest — all in under 30 seconds.", "points": 10, "level": "core" },
+    { "title": "Decimal Duel", "brief": "Win three consecutive clashes where the numbers differ only after the decimal point.", "points": 15, "level": "core" },
+    { "title": "Estimator's Eye", "brief": "Call an estimate within 5% of the true product in a multiplication twist round — twice in a row.", "points": 20, "level": "stretch" }
+  ],
+  "scorecard": {
+    "rounds": ["Rounds won", "Perfect Order", "Decimal Duel", "Estimator's Eye", "Total"],
+    "scoring": "1 point per round won, plus the printed points for each challenge completed. Deduct 2 points for any misread place value."
+  },
+  "updated": "2026-10"
+}

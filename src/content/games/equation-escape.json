@@ -1,0 +1,37 @@
+{
+  "slug": "equation-escape",
+  "name": "Equation Escape",
+  "tagline": "Solve to unlock the next door — a cooperative escape-room that runs entirely on linear equations.",
+  "status": "published",
+  "featured": true,
+  "grades": [10, 11],
+  "curriculumTags": ["Grade 10 — Algebra", "Grade 11 — Algebra"],
+  "concepts": ["Linear equations", "Inverse operations", "Substitution", "Modelling word problems"],
+  "players": "2–6",
+  "duration": "40–60 min",
+  "difficulty": 3,
+  "cover": "/images/workshop-table.jpg",
+  "howToPlay": {
+    "video": null,
+    "steps": [
+      { "title": "Lock the room", "text": "Spread the five Door tiles in a line — each shows a locked equation puzzle. Place the Key cards face-down beside them.", "image": null, "seconds": 8 },
+      { "title": "Draw a scenario", "text": "Read a Scenario card aloud — a short story: fares, distances, ages, prices. The whole team translates it into an equation together.", "image": null, "seconds": 10 },
+      { "title": "Solve as a team", "text": "Any player may solve, but the solver must announce each inverse operation as they apply it — “minus seven from both sides”.", "image": null, "seconds": 9 },
+      { "title": "Unlock the door", "text": "A correct solution flips the Door tile and reveals the Key card beneath. Show the substitution check to bank the key.", "image": null, "seconds": 9 },
+      { "title": "Timer pressure", "text": "The sand timer runs per door. Beat it and the team banks a speed star; let it run out and the door re-locks with a harder equation.", "image": null, "seconds": 8 },
+      { "title": "Escape!", "text": "The team escapes by unlocking all five doors before the Master Timer ends. Tally speed stars to grade the escape: Bronze, Silver or Gold.", "image": null, "seconds": 8 }
+    ],
+    "pdf": null
+  },
+  "challenges": [
+    { "title": "Inverse Narration", "brief": "Solve a full door while narrating every inverse operation — no silent steps allowed.", "points": 10, "level": "core" },
+    { "title": "Substitution Check", "brief": "Prove a solution by substitution, out loud, for three doors in a row.", "points": 15, "level": "core" },
+    { "title": "Word Problem Architect", "brief": "Write your own scenario card for the opposing team — it must solve to a positive integer, or you lose the points.", "points": 20, "level": "stretch" },
+    { "title": "Gold Run", "brief": "Escape all five doors with at least four speed stars — every solution checked and narrated.", "points": 25, "level": "stretch" }
+  ],
+  "scorecard": {
+    "rounds": ["Door 1", "Door 2", "Door 3", "Door 4", "Door 5", "Speed stars", "Total"],
+    "scoring": "5 points per unlocked door, plus printed challenge points. Each speed star = 3 bonus points. Deduct 2 points per skipped narration."
+  },
+  "updated": "2026-10"
+}

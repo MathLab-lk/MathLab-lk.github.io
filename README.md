@@ -6,7 +6,9 @@ backend required. Deploy anywhere static files are served.
 
 - **Live domain (planned):** `mathlablk.app` (current) → `mathlab.lk` (future)
 - **Stack:** React 18 + Vite 5, vanilla CSS design system (no UI framework)
-- **Bundle:** ~54 KB gzipped JS + ~7 KB gzipped CSS — fast on mobile data
+- **Bundle:** ~72 KB gzipped JS + ~11 KB gzipped CSS — fast on mobile data
+- **Digital Rulebook:** data-driven game directory with QR deep-links, animated
+  rules, printable challenge sheets & scorecards (see `docs/companion-guide.md`)
 
 ---
 
@@ -15,9 +17,25 @@ backend required. Deploy anywhere static files are served.
 ```bash
 npm install      # once
 npm run dev      # local dev server (http://localhost:5173)
-npm run build    # production build → dist/
+npm run build    # validates rulebook content, then production build → dist/
 npm run preview  # serve the production build locally
 ```
+
+### Digital Rulebook (Companion) tooling
+
+```bash
+npm run new:game -- "prime-hunt" "Prime Hunt"  # scaffold a new game entry (JSON)
+npm run validate:content                       # check every game entry, plain-English errors
+npm run qr:generate                            # regenerate box QR SVGs + A4 print sheet
+```
+
+Adding a game to the Rulebook is a no-code workflow — drop a JSON file in
+`src/content/games/`, add photos in `public/companion/games/<slug>/`, push.
+Full field reference: **[docs/companion-guide.md](docs/companion-guide.md)**.
+
+The four starter games shipped in `src/content/games/` are **sample entries**
+demonstrating the format — replace them with the real catalogue as boxes are
+photographed and rules are written.
 
 ## Deploying
 
@@ -93,15 +111,20 @@ Also recommended before launch:
 ```
 ├── public/               # static assets copied as-is to dist/
 │   ├── images/           # photos + brand assets (logo-hex, logo-lockup, csr-session, tools-table, og-cover)
+│   ├── companion/        # Rulebook assets: games/<slug>/ media + generated qr/
 │   ├── favicon.png       # official hexagon mark (48px)
 │   └── apple-touch-icon.png
 ├── src/
-│   ├── config.js         # ⭐ all editable site data (contact, stats, partners)
-│   ├── App.jsx           # section composition
-│   ├── styles/           # design system (base.css + sections.css)
+│   ├── config.js         # ⭐ all editable site data (contact, stats, partners, nav)
+│   ├── App.jsx           # section composition + tiny hash router (#/companion/...)
+│   ├── content/games/    # ⭐ Rulebook entries — one JSON per game, auto-discovered
+│   ├── companion/        # Rulebook UI (directory, detail, rule player, print, QR)
+│   ├── styles/           # design system (base.css + sections.css + companion.css)
 │   ├── hooks/useReveal.jsx  # scroll-reveal animation
-│   └── components/       # Nav, Hero, TrustBar, Method, Impact,
+│   └── components/       # Nav, Hero, TrustBar, Method, Impact, CompanionTeaser,
 │                         # Founder, Testimonials, Contact, Footer, Icons, Logo
+├── scripts/              # content tooling (validate, scaffold, QR generator)
+├── docs/companion-guide.md  # ⭐ how to add Rulebook games without code
 └── index.html            # SEO meta, Open Graph, fonts, JSON-LD
 ```
 

@@ -1,0 +1,32 @@
+{
+  "slug": "_template",
+  "name": "NEW GAME — Replace me",
+  "tagline": "One short hook line that appears on the directory card and detail header.",
+  "status": "draft",
+  "featured": false,
+  "grades": [6, 7],
+  "curriculumTags": ["Grade 6 — Topic", "Grade 7 — Topic"],
+  "concepts": ["Concept the game drills, e.g. Equivalent fractions", "Second concept"],
+  "players": "2–6",
+  "duration": "20–40 min",
+  "difficulty": 2,
+  "cover": "/images/logo-hex.png",
+  "howToPlay": {
+    "video": null,
+    "steps": [
+      { "title": "Set up", "text": "What players do first. Keep each step to 1–2 sentences — these auto-play like an animated story.", "image": null, "seconds": 8 },
+      { "title": "Core rule", "text": "The main mechanic of the game.", "image": null, "seconds": 8 },
+      { "title": "Scoring", "text": "How points are earned.", "image": null, "seconds": 8 },
+      { "title": "Winning", "text": "How the game ends.", "image": null, "seconds": 8 }
+    ],
+    "pdf": null
+  },
+  "challenges": [
+    { "title": "Challenge name", "brief": "What the player must do, and any constraints.", "points": 10, "level": "core" }
+  ],
+  "scorecard": {
+    "rounds": ["Round 1", "Round 2", "Round 3"],
+    "scoring": "Describe how to fill the scorecard, e.g. 1 point per correct match, 3 bonus points for a streak."
+  },
+  "updated": "2026-10"
+}

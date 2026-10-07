@@ -1,0 +1,37 @@
+{
+  "slug": "polygon-paths",
+  "name": "Polygon Paths",
+  "tagline": "Roll, move, and prove — a board race where every step must be justified with a geometry fact.",
+  "status": "published",
+  "featured": false,
+  "grades": [8, 9, 10],
+  "curriculumTags": ["Grade 8 — Geometry", "Grade 9 — Geometry", "Grade 10 — Geometry"],
+  "concepts": ["Angle properties", "Polygon classification", "Pythagoras' theorem", "Perimeter & area"],
+  "players": "2–5",
+  "duration": "30–45 min",
+  "difficulty": 3,
+  "cover": "/images/tools-table.jpg",
+  "howToPlay": {
+    "video": null,
+    "steps": [
+      { "title": "Choose your token", "text": "Each player picks a shape token and places it on START. Draw a Path card — it names the polygon zone you must reach first.", "image": null, "seconds": 8 },
+      { "title": "Roll and move", "text": "Roll the die and move that many tiles along the path. You may split the move across junctions — geometry is about choices.", "image": null, "seconds": 8 },
+      { "title": "Prove to proceed", "text": "Landing on a checkpoint tile means drawing a Proof card: state the angle rule or property that applies. Correct proof = take a shortcut tile. Wrong proof = stay put.", "image": null, "seconds": 10 },
+      { "title": "Collect shapes", "text": "Each completed zone awards that zone's shape token — triangle, quadrilateral, pentagon, hexagon. Collect all four to unlock the final gate.", "image": null, "seconds": 9 },
+      { "title": "The final gate", "text": "At the gate, solve the Pythagoras puzzle printed on the board edge for your lane. First correct solution wins the race.", "image": null, "seconds": 9 },
+      { "title": "Team variant", "text": "For classrooms, play in pairs — one player navigates, one proves, swapping roles at every checkpoint.", "image": null, "seconds": 7 }
+    ],
+    "pdf": null
+  },
+  "challenges": [
+    { "title": "Rules Master", "brief": "Answer five consecutive Proof cards correctly without hints — angles on a line, in a triangle, at a point, vertically opposite, and in an isosceles triangle.", "points": 10, "level": "core" },
+    { "title": "Shape Sorter", "brief": "Correctly classify all four zone polygons by both side count and angle type, within one turn.", "points": 15, "level": "core" },
+    { "title": "Triple Proof", "brief": "Solve another player's final-gate Pythagoras puzzle in under two minutes — right triangle, missing hypotenuse, and missing leg.", "points": 20, "level": "stretch" },
+    { "title": "Area Ace", "brief": "Compute the perimeter and area of your zone's shape from the measurements on the Proof card, with no calculator.", "points": 25, "level": "stretch" }
+  ],
+  "scorecard": {
+    "rounds": ["Proof streak", "Zones cleared", "Final gate time", "Challenges", "Total"],
+    "scoring": "2 points per correct proof, 5 per zone token, plus printed challenge points. Fastest final-gate solution earns a 10-point bonus."
+  },
+  "updated": "2026-10"
+}

@@ -49,6 +49,7 @@ export const PARTNERS = [
 export const NAV_LINKS = [
   { label: 'The Method', href: '#method' },
   { label: 'Our Impact', href: '#impact' },
+  { label: 'Rulebook', href: '#/companion', route: true },
   { label: 'Founder', href: '#founder' },
   { label: 'Voices', href: '#voices' },
   { label: 'Contact', href: '#contact' },
